@@ -251,3 +251,9 @@ a {
     display: inline;
     margin-top: 44px;
 }
+
+
+li{
+    text-align: center;
+    font-size: 30px;
+}
