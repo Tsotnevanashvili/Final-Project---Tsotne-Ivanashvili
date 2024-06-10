@@ -1,113 +1,115 @@
 body {
-    font-family: Helvetica;
-    background-color: #dfdfdf;
-    margin: 0;
-    padding: 0;
+  font-family: Helvetica;
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-    width: 125px;
-    height: 100px;
-    display: inline;
+  width: 125px;
+  height: 100px;
 }
 
 .chamonatvali {
-    display: flex;
-    margin-left: -8px;
-    margin-top: -42px;
-    background-color: black;
-    padding-left: 50px;
-    width: -webkit-fill-available;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 120px;
 }
 
-.HOMME{
-    margin-left: 82px;
-    margin-top: 61px;
-    color: white;
+.left-side {
+  display: flex;
+  align-items: center;
 }
 
-.HOME{
-    margin-left: 82px;
-    margin-top: 61px;
-    color: white;
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
 }
 
-.background{
-background-image: url(../images/background.jpg);
-height: 558px;
-margin-top: -4px;
-background-size: cover;
+.fa-burger {
+  color: white;
+  font-size: 30px;
+  display: none !important;
 }
 
-.ttext{
-    text-align: center;
-    font-size: 79px;
-    color: white;
-    padding-top: 238px;
-    margin-top: 5px;
+.HOMME {
+  color: white;
 }
 
-.ttext2{
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    margin-top: 5px;
+.HOME {
+  color: white;
+}
+
+.background {
+  background-image: url(../images/background.jpg);
+  height: 558px;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ttext {
+  text-align: center;
+  font-size: 79px;
+  color: white;
+  margin: 0;
+}
+
+.ttext2 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
 
 #gsearch {
-    margin-left: 325px;
-    width: 477px;
-    height: 34px;
-    margin-top: 8px;
-}
-
-.login {
-    width: 35px;
-    height: 40px;
-    padding-left: 414px;
+  width: 477px;
+  height: 34px;
+  margin-left: 20px;
 }
 
 .log {
-    color: white;
-    margin-left: 79px;
-    margin-top: 55px;
+  color: white;
 }
 
 .Geo {
-    width: 40px;
-    height: 28px;
-    background-color: white;
-    margin-left: -157px;
-    margin-top: 30px;
+  width: 40px;
+  height: 28px;
+  background-color: white;
 }
 
 .gel {
-    margin-top: 60px;
-    margin-left: -37px;
-    color: white;
+  color: white;
 }
 
 a {
-    margin-left: 70px;
-    text-decoration: none;
-    color: white;
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
 }
 
 #submit {
-    width: 33px;
-    height: 34px;
+  width: 33px;
+  height: 34px;
 }
 
 .one {
-    text-align: center;
-    font-size: 52px;
+  text-align: center;
+  font-size: 52px;
 }
 
 .cho {
-    text-align: center;
-    color: black;
-    font-size: 17px;
-    margin-top: -8px;
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  margin-top: -8px;
 }
 
 .men,
@@ -116,138 +118,144 @@ a {
 .fat,
 .abs,
 .beginner {
-    width: 265px;
-    height: 187px;
-    display: inline-block;
-}
-
-.men {
-    margin-left: 10px;
-}
-
-.women,
-.muscle,
-.abs,
-.beginner {
-    margin-left: 60px;
+  width: 265px;
+  height: 187px;
 }
 
 .workouts {
-    display: flex;
-    width: 1190px;
-    margin-left: 144px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.workout_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text {
-    display: flex;
-    margin-left: 221px;
-    margin-top: 10px;
+  display: flex;
+  /* margin-left: 221px;
+  margin-top: 10px; */
 }
 
 .work {
-    margin-left: 253px;
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-.man{
-    color: black;
+.man {
+  color: black;
 }
 
 .muc {
-    margin-left: 256px;
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .workouts2 {
-    margin-left: 153px;
-    margin-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .column {
-    display: flex;
-    margin-left: 316px;
+  display: flex;
 }
 
 .ab {
-    margin-left: 322px;
+  margin-left: 322px;
 }
 
 .beg {
-    margin-left: 278px;
+  margin-left: 278px;
 }
 
 .chamonatvali2 {
-    display: flex;
-    margin-left: -8px;
-    margin-top: 54px;
-    background-color: black;
-    padding-left: 115px;
-    margin-bottom: -8px;
-    height: 178px;
-    width: -webkit-fill-available;
+  display: flex;
+  margin-left: -8px;
+  margin-top: 54px;
+  background-color: black;
+  padding-left: 115px;
+  margin-bottom: -8px;
+  height: 178px;
+  width: -webkit-fill-available;
 }
 
 .cs {
-    color: white;
-    margin-left: 74px;
-    margin-top: 31px;
-    font-size: 18px;
+  color: white;
+  margin-left: 74px;
+  margin-top: 31px;
+  font-size: 18px;
 }
 
 .columnn,
 .columnn2,
 .columnn3 {
-    width: 110px;
-    color: white;
-    font-size: 10px;
-    margin-top: 56px;
+  width: 110px;
+  color: white;
+  font-size: 10px;
+  margin-top: 56px;
 }
 
 .columnn {
-    width: 179px;
-    font-size: 15px;
-    margin-left: -212px;
+  width: 179px;
+  font-size: 15px;
+  margin-left: -212px;
 }
 
 .columnn2 {
-    margin-left: -52px;
+  margin-left: -52px;
 }
 
 .columnn3 {
-    margin-left: -116px;
-    margin-top: -67px;
+  margin-left: -116px;
+  margin-top: -67px;
 }
 
 .chamonatvali3 {
-    display: flex;
-    margin-left: 398px;
-    margin-top: -173px;
+  display: flex;
+  margin-left: 398px;
+  margin-top: -173px;
 }
 
 .cs2 {
-    color: white;
-    font-size: 20px;
-    margin-left: 199px;
-    margin-top: 28px;
+  color: white;
+  font-size: 20px;
+  margin-left: 199px;
+  margin-top: 28px;
 }
 
 .chamonatvali4 {
-    display: flex;
-    color: white;
+  display: flex;
+  color: white;
 }
 
 .cs3 {
-    color: white;
-    font-size: 18px;
-    margin-left: 730px;
-    margin-top: -88px;
+  color: white;
+  font-size: 18px;
+  margin-left: 730px;
+  margin-top: -88px;
 }
 
 .logo4 {
-    width: 125px;
-    height: 100px;
-    display: inline;
-    margin-top: 44px;
+  width: 125px;
+  height: 100px;
+  display: inline;
+  margin-top: 44px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .fa-burger {
+    display: block !important;
+  }
+
+  .left-side {
+    display: none;
+  }
 }
