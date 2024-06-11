@@ -58,14 +58,14 @@ body {
 
 .ttext {
   text-align: center;
-  font-size: 79px;
+  font-size: 62px;
   color: white;
   margin: 0;
 }
 
 .ttext2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   color: white;
 }
 
@@ -134,6 +134,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
 .text {
@@ -178,20 +179,17 @@ a {
 
 .chamonatvali2 {
   display: flex;
-  margin-left: -8px;
-  margin-top: 54px;
   background-color: black;
-  padding-left: 115px;
-  margin-bottom: -8px;
   height: 178px;
   width: -webkit-fill-available;
+
 }
 
 .cs {
   color: white;
-  margin-left: 74px;
-  margin-top: 31px;
-  font-size: 18px;
+  font-size: 17px;
+  margin-left: 28px;
+  margin-bottom: -3px;
 }
 
 .columnn,
@@ -200,35 +198,37 @@ a {
   width: 110px;
   color: white;
   font-size: 10px;
-  margin-top: 56px;
+  height: 123px;
 }
 
 .columnn {
   width: 179px;
   font-size: 15px;
-  margin-left: -212px;
+  display: grid;
+  align-items: end;
 }
 
 .columnn2 {
-  margin-left: -52px;
+  width: 179px;
+  font-size: 15px;
+  display: grid;
 }
 
 .columnn3 {
   margin-left: -116px;
   margin-top: -67px;
+  display: grid;
 }
 
 .chamonatvali3 {
   display: flex;
-  margin-left: 398px;
-  margin-top: -173px;
 }
 
 .cs2 {
   color: white;
-  font-size: 20px;
-  margin-left: 199px;
-  margin-top: 28px;
+  font-size: 22px;
+  margin-left: 28px;
+  margin-bottom: -3px;
 }
 
 .chamonatvali4 {
@@ -264,4 +264,19 @@ a {
 li{
     text-align: center;
     font-size: 30px;
+}
+
+.workouts2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.workout_card2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
