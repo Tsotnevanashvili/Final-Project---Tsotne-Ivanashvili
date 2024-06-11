@@ -1,83 +1,290 @@
-body{
+body {
     font-family: Helvetica;
     background-color: #dfdfdf;
-}
-
-.logo{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
     width: 125px;
     height: 100px;
-    display: inline;
-    margin-left: -69px;
-}
-.chamonatvali{
+  }
+  
+  .chamonatvali {
     display: flex;
-    margin-left: -8px;
-    margin-top: -42px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    padding-left: 115px;
-    width: -webkit-fill-available;
-}
-
-h4{
-    margin-left: 82px;
-    margin-top: 61px;
+    height: 120px;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 50px;
+  }
+  
+  .fa-burger {
     color: white;
-}
-
-#gsearch{
-    margin-left: 325px;
+    font-size: 30px;
+    display: none !important;
+  }
+  
+  .HOMME {
+    color: white;
+  }
+  
+  .HOME {
+    color: white;
+  }
+  
+  .background {
+    background-image: url(../images/dumbell.jpg);
+    height: 558px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .ttext {
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    margin: 0;
+  }
+  
+  .ttext2 {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+  }
+  
+  #gsearch {
     width: 477px;
     height: 34px;
-}
-
-.login{
-    width: 35px;
-    height: 40px;
-    padding-left: 515px;
-    margin-top: 18px;
-    align-items: end;
-}
-
-.log{
-    margin-left: 79px;
+    margin-left: 20px;
+  }
+  
+  .log {
     color: white;
-    margin-top: 55px;
-}
-
-.Geo{
+  }
+  
+  .Geo {
     width: 40px;
     height: 28px;
     background-color: white;
-    margin-left: -154px;
-    margin-top: 30px;
-}
-
-.gel{
-    margin-top: 60px;
-    margin-left: -37px;
+  }
+  
+  .gel {
     color: white;
-}
-
-a{
-    margin-left: 70px;
-}
-
-#submit{
+  }
+  
+  a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  #submit {
     width: 33px;
     height: 34px;
-}
+  }
+  
+  .one {
+    text-align: center;
+    font-size: 52px;
+  }
+  
+  .cho {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    margin-top: -8px;
+  }
+  
+  .men,
+  .women,
+  .muscle,
+  .fat,
+  .abs,
+  .beginner {
+    width: 265px;
+    height: 187px;
+  }
+  
+  .workouts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .workout_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .text {
+    display: flex;
+    /* margin-left: 221px;
+    margin-top: 10px; */
+  }
+  
+  .work {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .man {
+    color: black;
+  }
+  
+  .muc {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .workouts2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    display: flex;
+  }
+  
+  .ab {
+    margin-left: 322px;
+  }
+  
+  .beg {
+    margin-left: 278px;
+  }
+  
+  .chamonatvali2 {
+    display: flex;
+    background-color: black;
+    height: 178px;
+    width: -webkit-fill-available;
+  
+  }
+  
+  .cs {
+    color: white;
+    font-size: 17px;
+    margin-left: 28px;
+    margin-bottom: -3px;
+  }
+  
+  .columnn,
+  .columnn2,
+  .columnn3 {
+    width: 110px;
+    color: white;
+    font-size: 10px;
+    height: 123px;
+  }
+  
+  .columnn {
+    width: 179px;
+    font-size: 15px;
+    display: grid;
+    align-items: end;
+  }
+  
+  .columnn2 {
+    width: 179px;
+    font-size: 15px;
+    display: grid;
+  }
+  
+  .columnn3 {
+    margin-left: -116px;
+    margin-top: -67px;
+    display: grid;
+  }
+  
+  .chamonatvali3 {
+    display: flex;
+  }
+  
+  .cs2 {
+    color: white;
+    font-size: 22px;
+    margin-left: 28px;
+    margin-bottom: -3px;
+  }
+  
+  .chamonatvali4 {
+    display: flex;
+    color: white;
+  }
+  
+  .cs3 {
+    color: white;
+    font-size: 18px;
+    margin-left: 730px;
+    margin-top: -88px;
+  }
+  
+  .logo4 {
+    width: 125px;
+    height: 100px;
+    display: inline;
+    margin-top: 44px;
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    .fa-burger {
+      display: block !important;
+    }
+  
+    .left-side {
+      display: none;
+    }
+  }
+  
+  
+  li{
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  .workouts2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .workout_card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-.dum{
+  .dum{
     margin-left: 150px;
     font-size: 64px;
-}
-
-.dumbell{
-    width: 1300px;
-    height: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .cat{
@@ -86,102 +293,8 @@ a{
     margin-left: 160px;
 }
 
-.category{
+.cat{
     display: inline-block;
-    background-color: #aaaaaa9e;
-    border-radius: 10px;
-    width: 141px;
-    padding-left: 18px;
-}
-
-.dum2{
-    font-size: 50px;
-    text-align: center;
-}
-
-.text2{
-    margin-left: 313px;
-    color: #333;
-    width: 887px;
-    font-size: 19px;
-}
-
-.chamonatvali2{
-    display: flex;
-    margin-left: -8px;
-    margin-top: 54px;
-    background-color: black;
-    padding-left: 115px;
-    margin-bottom: -8px;
-    height: 178px;
-    width: -webkit-fill-available;
-}
-
-.cs{
-    color: white;
-    margin-left: 74px;
-    margin-top: 31px;
-    font-size: 18px;
-}
-
-.columnn{
-    width: 110px;
-    color: white;
-    font-size: 10px;
-    margin-top: 56px;
-    margin-left: -151px;
-}
-
-.chamonatvali3{
-    display: flex;
-    margin-left: 398px;
-    margin-top: -173px;
-}
-
-.cs2{
-    color: white;
-    font-size: 18px;
-    margin-left: 149px;
-    margin-top: 31px;
-}
-
-.columnn2{
-    width: 110px;
-    color: white;
-    font-size: 10px;
-    margin-top: 56px;
-    margin-left: -52px;
-}
-
-.chamonatvali4{
-    display: flex;
-    color: white;
-}
-
-.cs3{
-    color: white;
-    font-size: 18px;
-    margin-left: 730px;
-    margin-top: -88px;
-    font-size: 18px;
-}
-
-.columnn3{
-    width: 110px;
-    color: white;
-    font-size: 10px;
-    margin-left: -116px;
-    margin-top: -67px;
-}
-
-.logo4{
-    width: 125px;
-    height: 100px;
-    display: inline;
-    margin-top: 44px;
-}
-
-.bi{
-    margin-left: 300px;
-    font-size: 50px;
+    display: inline-block;
+    margin-left: 160px;
 }
