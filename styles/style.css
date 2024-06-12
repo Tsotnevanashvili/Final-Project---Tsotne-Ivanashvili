@@ -6,10 +6,8 @@ body {
 }
 
 .logo {
-  width: 125px;
-  height: 100px;
-  width: 83px;
-  height: 75px;
+  width: 95px;
+  height: 84px;
 }
 
 .chamonatvali {
@@ -141,8 +139,6 @@ a {
 
 .text {
   display: flex;
-  /* margin-left: 221px;
-  margin-top: 10px; */
 }
 
 .work {
@@ -164,7 +160,9 @@ a {
   width: 100%;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  margin-bottom: 33px;
+
 }
 
 .column {
@@ -281,4 +279,41 @@ li{
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+}
+
+
+.men{
+  width: 265px;
+  height: 187px;
+  transition: width 2s, height 2s;
+}
+
+.men:hover {
+  width: 300px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.women{
+  width: 265px;
+  height: 187px;
+  transition: width 2s, height 2s;
+}
+
+.women:hover {
+  width: 300px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.muscle{
+  width: 265px;
+  height: 187px;
+  transition: width 2s, height 2s;
+}
+
+.muscle:hover {
+  width: 300px;
+  height: 230px;
+  border-radius: 10px;
 }
