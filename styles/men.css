@@ -103,6 +103,8 @@ body {
   .one {
     text-align: center;
     font-size: 52px;
+    animation: fade linear;
+    animation-timeline: view();
   }
   
   .cho {

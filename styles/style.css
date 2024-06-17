@@ -3,7 +3,7 @@ body {
   background-color: #dfdfdf;
   margin: 0;
   padding: 0;
-  animation: fade-up 0.5s;
+  animation: fade-up 1.5s;
 }
 
 .logo {
@@ -104,6 +104,8 @@ a {
 .one {
   text-align: center;
   font-size: 52px;
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 .cho {
@@ -111,6 +113,8 @@ a {
   color: black;
   font-size: 17px;
   margin-top: -8px;
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 .men,
@@ -129,6 +133,8 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 .workout_card {
@@ -163,7 +169,8 @@ a {
   align-items: center;
   flex-wrap: wrap; 
   margin-bottom: 33px;
-
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 .column {
@@ -292,7 +299,6 @@ li{
 .men:hover {
   width: 300px;
   height: 230px;
-  border-radius: 10px;
 }
 
 .women{
@@ -304,7 +310,6 @@ li{
 .women:hover {
   width: 300px;
   height: 230px;
-  border-radius: 10px;
 }
 
 .muscle{
@@ -316,7 +321,6 @@ li{
 .muscle:hover {
   width: 300px;
   height: 230px;
-  border-radius: 10px;
 }
 
 .bi2{
@@ -325,6 +329,8 @@ li{
   padding: 10px;
   text-align: start;
   font-size: 20px;
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 p{
@@ -334,6 +340,8 @@ p{
 .h1{
   text-align: center;
   font-size: 58px;
+  animation: fade linear;
+  animation-timeline: view();
 }
 
 
@@ -346,5 +354,25 @@ p{
   100%{
     opacity: 1;
     transform:  translateY(0px) scale(1);
+  }
+}
+
+
+@keyframes fade{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  0%{
+    opacity: 0.2;
+  }
+  50%{
+    opacity: 1;
+    transform: translate();
+  }
+  100%{
+    transform: translate();
   }
 }
