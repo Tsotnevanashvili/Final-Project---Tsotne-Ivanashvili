@@ -3,6 +3,7 @@ body {
   background-color: #dfdfdf;
   margin: 0;
   padding: 0;
+  animation: fade-up 0.5s;
 }
 
 .logo {
@@ -316,4 +317,34 @@ li{
   width: 300px;
   height: 230px;
   border-radius: 10px;
+}
+
+.bi2{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: start;
+  font-size: 20px;
+}
+
+p{
+  color: #858585;
+}
+
+.h1{
+  text-align: center;
+  font-size: 58px;
+}
+
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform:  translateY(30px) scale(0.9);
+  }
+
+  100%{
+    opacity: 1;
+    transform:  translateY(0px) scale(1);
+  }
 }
